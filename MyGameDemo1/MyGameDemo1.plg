@@ -1,0 +1,181 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: MyGameDemo1 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPBDD5.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/MyGameDemo1.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\ant\MyGame\MyGameDemo1\raiders3d.cpp"
+"E:\ant\MyGame\MyGameDemo1\t3dlib1.cpp"
+"E:\ant\MyGame\MyGameDemo1\t3dlib2.cpp"
+"E:\ant\MyGame\MyGameDemo1\t3dlib3.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPBDD5.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPBDE5.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib DDRAW.LIB DSOUND.LIB DINPUT.LIB DINPUT8.LIB WINMM.LIB /nologo /subsystem:windows /incremental:yes /pdb:"Debug/MyGameDemo1.pdb" /debug /machine:I386 /out:"Debug/MyGameDemo1.exe" /pdbtype:sept 
+.\Debug\raiders3d.obj
+.\Debug\t3dlib1.obj
+.\Debug\t3dlib2.obj
+.\Debug\t3dlib3.obj
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPBDE5.tmp"
+<h3>Output Window</h3>
+Compiling...
+raiders3d.cpp
+e:\windows游戏编程光盘文件\sdk (c++)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+e:\ant\mygame\mygamedemo1\raiders3d.cpp(259) : warning C4101: 'ps' : unreferenced local variable
+e:\ant\mygame\mygamedemo1\raiders3d.cpp(258) : warning C4101: 'hdc' : unreferenced local variable
+e:\ant\mygame\mygamedemo1\raiders3d.cpp(423) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+e:\ant\mygame\mygamedemo1\raiders3d.cpp(424) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+e:\ant\mygame\mygamedemo1\raiders3d.cpp(425) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+e:\ant\mygame\mygamedemo1\raiders3d.cpp(545) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+e:\ant\mygame\mygamedemo1\raiders3d.cpp(621) : warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+e:\ant\mygame\mygamedemo1\raiders3d.cpp(622) : warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+e:\ant\mygame\mygamedemo1\raiders3d.cpp(623) : warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+e:\ant\mygame\mygamedemo1\raiders3d.cpp(624) : warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+e:\ant\mygame\mygamedemo1\raiders3d.cpp(675) : warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+e:\ant\mygame\mygamedemo1\raiders3d.cpp(676) : warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+e:\ant\mygame\mygamedemo1\raiders3d.cpp(704) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+e:\ant\mygame\mygamedemo1\raiders3d.cpp(705) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+e:\ant\mygame\mygamedemo1\raiders3d.cpp(709) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+e:\ant\mygame\mygamedemo1\raiders3d.cpp(710) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+e:\ant\mygame\mygamedemo1\raiders3d.cpp(711) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+e:\ant\mygame\mygamedemo1\raiders3d.cpp(781) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+e:\ant\mygame\mygamedemo1\raiders3d.cpp(805) : warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+e:\ant\mygame\mygamedemo1\raiders3d.cpp(806) : warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+e:\ant\mygame\mygamedemo1\raiders3d.cpp(807) : warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+e:\ant\mygame\mygamedemo1\raiders3d.cpp(808) : warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+e:\ant\mygame\mygamedemo1\raiders3d.cpp(843) : warning C4244: '+=' : conversion from 'float' to 'int', possible loss of data
+e:\ant\mygame\mygamedemo1\raiders3d.cpp(983) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+e:\ant\mygame\mygamedemo1\raiders3d.cpp(984) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+e:\ant\mygame\mygamedemo1\raiders3d.cpp(867) : warning C4101: 'index' : unreferenced local variable
+t3dlib1.cpp
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(210) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(211) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(364) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(365) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(366) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(367) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(404) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(405) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(406) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(407) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(445) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(446) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(447) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(448) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(485) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(486) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(487) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(488) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(763) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(766) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(770) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(773) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(837) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(838) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(894) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(895) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(951) : warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(952) : warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(954) : warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(955) : warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(1702) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(1707) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(1713) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(1719) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(1727) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(1734) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(1743) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(1750) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(1759) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(1765) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(1774) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(1780) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(1823) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(1830) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(1839) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(1846) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(1855) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(1861) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(1870) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(1876) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(3506) : warning C4101: 'work_color' : unreferenced local variable
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(4079) : warning C4018: '<' : signed/unsigned mismatch
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(4129) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(4245) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(4368) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(4492) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(5129) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(5130) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(5131) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(5216) : warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(5225) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(5233) : warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(5234) : warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(5235) : warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(5236) : warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(5242) : warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(5243) : warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(5249) : warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(5250) : warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(5586) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(5587) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(5599) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(5600) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(5643) : warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(5652) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(5660) : warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(5661) : warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(5662) : warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(5663) : warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(5669) : warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(5670) : warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(5676) : warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(5677) : warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(6013) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(6014) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(6026) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(6027) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(6051) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(6052) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(6155) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(6155) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(6155) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(6155) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(6166) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(6166) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(6166) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(6166) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(6194) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(6194) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(6194) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(6194) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(6205) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(6205) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(6205) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(6205) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(6237) : warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(6237) : warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(6240) : warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(6240) : warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(6247) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+e:\ant\mygame\mygamedemo1\t3dlib1.cpp(6248) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+t3dlib2.cpp
+e:\windows游戏编程光盘文件\sdk (c++)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+t3dlib3.cpp
+e:\ant\mygame\mygamedemo1\t3dlib3.cpp(858) : warning C4101: 'index' : unreferenced local variable
+Linking...
+
+
+
+<h3>Results</h3>
+MyGameDemo1.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
